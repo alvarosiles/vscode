@@ -105,10 +105,42 @@ p { margin: 0; }
 
 .main-nav a:hover { color: var(--text); }
 
+.main-nav a.is-active { color: var(--text); }
+
 .header-actions {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+/* ---------- Language toggle ---------- */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 5px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color .2s var(--ease), color .2s var(--ease);
+}
+
+.lang-btn:hover { color: var(--text); }
+
+.lang-btn.is-active {
+  background: var(--accent);
+  color: var(--accent-contrast);
 }
 
 .icon-btn {
@@ -438,6 +470,11 @@ p { margin: 0; }
   color: var(--text);
 }
 
+.privacy-cta {
+  margin-top: 32px;
+  text-align: center;
+}
+
 .privacy-list svg {
   flex-shrink: 0;
   width: 20px;
@@ -460,13 +497,9 @@ p { margin: 0; }
   width: 120px;
   height: 120px;
   border-radius: 999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  font-weight: 650;
-  color: var(--accent-contrast);
-  background: linear-gradient(150deg, var(--accent), color-mix(in srgb, var(--accent) 40%, #7c5cff));
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
 }
 
 .about-content { flex: 1; }
@@ -477,6 +510,41 @@ p { margin: 0; }
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+/* ---------- Policy page ---------- */
+.policy-hero {
+  padding: 90px 0 50px;
+}
+
+.policy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  max-width: 760px;
+}
+
+.policy-block h2 {
+  font-size: 1.2rem;
+  font-weight: 650;
+  margin-bottom: 14px;
+}
+
+.policy-block p {
+  color: var(--text-muted);
+  font-size: 0.96rem;
+  margin-bottom: 10px;
+}
+
+.policy-block p:last-child { margin-bottom: 0; }
+
+.policy-block code {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-size: 0.86em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 /* ---------- Footer ---------- */
@@ -498,6 +566,7 @@ p { margin: 0; }
 .heart { display: inline-block; }
 
 .footer-meta { color: var(--text-faint); }
+.footer-meta a:hover { color: var(--text); text-decoration: underline; }
 
 /* ---------- Scroll reveal ---------- */
 .reveal {
