@@ -54,22 +54,6 @@ A simple commitment, no fine print:
 
 Read the [full privacy policy](privacy.html).
 
-## 🛠️ Site stack
-
-- Semantic HTML5
-- Plain CSS (`style.css`) with light/dark theme support
-- Vanilla JavaScript (`script.js`) for i18n (EN/ES), animations and theme toggle
-- No frameworks or external dependencies
-
-### Run locally
-
-```bash
-git clone https://github.com/alvarosiles/vscode.git
-cd vscode
-# Open index.html in your browser, or serve the folder:
-npx serve .
-```
-
 ## 👤 About the developer
 
 Created by **[Alvaro Siles](https://alvarosiles.cloud)** — independent developer building productivity tools for developers, focused on simplicity, performance and respect for user privacy.

@@ -54,22 +54,6 @@ Un compromiso simple, sin letra pequeña:
 
 Lee la [política de privacidad completa](privacy.html).
 
-## 🛠️ Stack del sitio
-
-- HTML5 semántico
-- CSS puro (`style.css`) con soporte de tema claro/oscuro
-- JavaScript vanilla (`script.js`) para i18n (ES/EN), animaciones y toggle de tema
-- Sin frameworks ni dependencias externas
-
-### Ejecutar localmente
-
-```bash
-git clone https://github.com/alvarosiles/vscode.git
-cd vscode
-# Abre index.html en tu navegador, o sirve la carpeta:
-npx serve .
-```
-
 ## 👤 Sobre el desarrollador
 
 Creado por **[Alvaro Siles](https://alvarosiles.cloud)** — desarrollador independiente construyendo herramientas de productividad para desarrolladores, con foco en simplicidad, rendimiento y respeto por la privacidad del usuario.
