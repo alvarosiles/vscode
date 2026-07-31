@@ -90,7 +90,66 @@
       "contact.title": "Contact",
       "contact.p1": "Questions about this policy? Reach out via GitHub or visit my website.",
       "footer.made": "Created with",
-      "footer.by": "by Alvaro Siles"
+      "footer.by": "by",
+      "nav.license": "License",
+
+      "home.meta.title": "Alvaro Siles — Visual Studio Code Extensions",
+      "home.meta.description": "Visual Studio Code extensions built by Alvaro Siles: themes, snippets, tools and AI assistance to improve your workflow.",
+      "hero.eyebrow": "Independent developer",
+      "hero.subtitle": "Visual Studio Code extensions built with care",
+      "hero.desc": "I build productivity tools for developers: themes, snippets, utilities, and AI assistance that plug directly into your editor. No accounts, no trackers, no hassle.",
+      "hero.cta.projects": "View projects",
+
+      "projects.title": "Extensions for your editor",
+      "projects.desc": "Five independent tools, each focused on solving one concrete problem.",
+      "projects.preview": "Preview",
+
+      "proj.themes.desc": "A carefully crafted color theme collection, designed for long coding sessions without visual fatigue.",
+      "proj.themes.f1": "High-contrast light and dark palettes",
+      "proj.themes.f2": "Syntax highlighting tuned for 20+ languages",
+      "proj.themes.f3": "Matching file icons",
+
+      "proj.ai.desc": "AI assistance built into your editor to explain, refactor, and document code without leaving your workflow.",
+      "proj.ai.f1": "In-context code suggestions",
+      "proj.ai.f2": "Function explanation and refactoring",
+      "proj.ai.f3": "Configurable with your own provider",
+
+      "proj.tools.desc": "A set of everyday utilities: quick formatting, navigation shortcuts, and commands for repetitive tasks.",
+      "proj.tools.f1": "Productivity commands in the command palette",
+      "proj.tools.f2": "Navigation shortcuts between files",
+      "proj.tools.f3": "Automation for repetitive tasks",
+
+      "proj.snippets.desc": "Curated snippets for the most used languages and frameworks, so you write less and build faster.",
+      "proj.snippets.f1": "Coverage for JS/TS, React, Python and more",
+      "proj.snippets.f2": "Consistent naming conventions",
+      "proj.snippets.f3": "Easy to extend with your own snippets",
+
+      "proj.pack.desc": "All the extensions above bundled into a single install, with recommended starter settings.",
+      "proj.pack.f1": "Install the whole ecosystem in one step",
+      "proj.pack.f2": "Recommended settings included",
+      "proj.pack.f3": "Centralized updates",
+
+      "btn.install": "Install extension",
+
+      "features.title": "Why use these extensions",
+      "feature1.title": "Easy to use",
+      "feature1.desc": "Install and start working right away. No complex setup, no mandatory accounts.",
+      "feature2.title": "Fast and lightweight",
+      "feature2.desc": "Built to avoid slowing down your editor, even in large projects.",
+      "feature3.title": "Privacy first",
+      "feature3.desc": "Everything runs locally whenever possible. No data collected without your knowledge.",
+
+      "privacy.cta": "Read the full privacy policy",
+
+      "about.eyebrow": "About the developer",
+      "about.title": "Created by <a href=\"https://alvarosiles.cloud\" target=\"_blank\" rel=\"noopener\">Alvaro Siles</a>",
+      "about.desc": "Developer creating productivity extensions and tools. I build software for developers, focused on simplicity, performance, and respect for user privacy.",
+
+      "license.meta.title": "License — Alvaro Siles",
+      "license.meta.description": "MIT license for Alvaro Siles' open source projects.",
+      "license.title": "License",
+      "license.desc": "All the code for these projects is released under the MIT license: free to use, copy, modify, and distribute, commercially or not.",
+      "license.viewGithub": "View on GitHub"
     }
   };
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Licencia — Alvaro Siles</title>
-  <meta name="description" content="Licencia MIT de los proyectos de código abierto de Alvaro Siles.">
+  <title data-i18n="license.meta.title">Licencia — Alvaro Siles</title>
+  <meta name="description" data-i18n="license.meta.description" content="Licencia MIT de los proyectos de código abierto de Alvaro Siles.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🅰️</text></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,13 +16,17 @@
       <a href="index.html" class="logo">Alvaro Siles</a>
 
       <nav class="main-nav" id="main-nav">
-        <a href="index.html#proyectos">Proyectos</a>
-        <a href="index.html#caracteristicas">Características</a>
-        <a href="privacy.html">Privacidad</a>
-        <a href="index.html#sobre-mi">Sobre mí</a>
+        <a href="index.html#proyectos" data-i18n="nav.projects">Proyectos</a>
+        <a href="index.html#caracteristicas" data-i18n="nav.features">Características</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Privacidad</a>
+        <a href="index.html#sobre-mi" data-i18n="nav.about">Sobre mí</a>
       </nav>
 
       <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang="es">ES</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
         <button id="theme-toggle" class="icon-btn" aria-label="Cambiar tema" title="Cambiar tema">
           <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
           <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -38,9 +42,9 @@
     <!-- ===== Hero ===== -->
     <section class="hero policy-hero">
       <div class="container hero-inner">
-        <p class="eyebrow reveal">Legal</p>
-        <h1 class="reveal">Licencia</h1>
-        <p class="hero-desc reveal">
+        <p class="eyebrow reveal" data-i18n="policy.eyebrow">Legal</p>
+        <h1 class="reveal" data-i18n="license.title">Licencia</h1>
+        <p class="hero-desc reveal" data-i18n="license.desc">
           Todo el código de estos proyectos se publica bajo la licencia MIT: libre para usar,
           copiar, modificar y distribuir, con y sin fines comerciales.
         </p>
@@ -53,7 +57,7 @@
         <div class="license-box reveal">
           <div class="license-box-head">
             <h2>MIT License</h2>
-            <a href="https://github.com/alvarosiles/vscode/blob/main/LICENSE" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Ver en GitHub</a>
+            <a href="https://github.com/alvarosiles/vscode/blob/main/LICENSE" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" data-i18n="license.viewGithub">Ver en GitHub</a>
           </div>
           <pre class="license-text">Copyright (c) 2026 Alvaro Siles
 
@@ -82,11 +86,11 @@ SOFTWARE.</pre>
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>Created with <span class="heart">❤️</span> by Alvaro Siles</p>
+      <p><span data-i18n="footer.made">Created with</span> <span class="heart">❤️</span> <span data-i18n="footer.by">by</span> <a href="https://alvarosiles.cloud" target="_blank" rel="noopener" class="footer-name">Alvaro Siles</a></p>
       <p class="footer-meta">
         &copy; <span id="year"></span> Alvaro Siles.
-        · <a href="privacy.html">Privacidad</a>
-        · <a href="license.html">Licencia</a>
+        · <a href="privacy.html" data-i18n="nav.privacy">Privacidad</a>
+        · <a href="license.html" data-i18n="nav.license">Licencia</a>
       </p>
     </div>
   </footer>
