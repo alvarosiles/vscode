@@ -161,17 +161,11 @@ El código debe ser:
 ## Información del repositorio
 
 Tipo:
-[INDICAR SI ES VS CODE O BROWSER EXTENSIONS]
-
-Nombre:
-[INSERTAR NOMBRE DEL REPOSITORIO]
+Visual Studio Code Extensions
 
 Proyectos incluidos:
-
-[PEGAR AQUÍ LA LISTA DE EXTENSIONES]
-
-Descripción:
-
-[PEGAR AQUÍ LA DESCRIPCIÓN]
-
-Genera la página completa.
+- Pro VSCode Themes
+- Pro AI Assistant
+- Pro VSCode Tools
+- Pro VSCode Snippets
+- Alvaro's Pro Dev Pack
