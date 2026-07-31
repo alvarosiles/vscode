@@ -1,0 +1,177 @@
+Actúa como un diseñador y desarrollador web especializado en páginas de presentación para proyectos open source y productos digitales.
+
+Quiero crear una página web usando GitHub Pages para mi repositorio. La página debe verse profesional, limpia y moderna, similar a la página de un desarrollador independiente que publica herramientas y extensiones.
+
+Mi marca personal es:
+
+Álvaro Siles
+
+Soy desarrollador creando herramientas de productividad, extensiones de navegador y extensiones para Visual Studio Code.
+
+## Objetivo de la página
+
+Crear una landing page para presentar mis proyectos, explicar sus características y dirigir a los usuarios a las tiendas oficiales (Chrome Web Store o Visual Studio Marketplace).
+
+Debe transmitir:
+- Confianza.
+- Calidad.
+- Simplicidad.
+- Profesionalidad.
+- Que hay un desarrollador real detrás del proyecto.
+
+## Estilo visual
+
+Inspiración:
+- Páginas de desarrolladores independientes.
+- Proyectos open source modernos.
+- Landing pages minimalistas.
+
+Diseño:
+- Limpio.
+- Elegante.
+- Responsive.
+- Compatible con móvil.
+- Buen uso de espacios.
+- Animaciones suaves.
+- Modo oscuro por defecto.
+
+Evitar:
+- Diseños demasiado corporativos.
+- Exceso de colores.
+- Exceso de emojis.
+- Texto exagerado.
+
+## Estructura de la página
+
+Crear:
+
+# Hero
+
+Mostrar:
+
+Álvaro Siles
+
+Título principal relacionado con el proyecto.
+
+Una descripción corta explicando qué es y para qué sirve.
+
+Botones principales:
+- Descargar / Install
+- GitHub
+- Marketplace correspondiente
+
+---
+
+# Proyectos / Extensiones
+
+Cada proyecto debe tener:
+
+- Nombre.
+- Icono.
+- Descripción corta.
+- Características principales.
+- Imagen o captura (usar placeholders si no existen).
+- Botón de descarga.
+
+---
+
+# Características
+
+Mostrar las funciones principales en tarjetas.
+
+Ejemplo:
+
+⭐ Fácil de usar
+
+Explicación corta.
+
+⭐ Rápido y ligero
+
+Explicación corta.
+
+⭐ Privacidad
+
+Explicación corta.
+
+---
+
+# Privacidad
+
+Crear una sección indicando:
+
+- No recopilamos datos personales.
+- No usamos trackers.
+- No enviamos información a servidores externos.
+- Todo funciona localmente cuando corresponda.
+
+---
+
+# Sobre el desarrollador
+
+Añadir:
+
+Creado por Álvaro Siles.
+
+Developer creating productivity extensions and tools.
+
+Enlaces:
+
+GitHub:
+https://github.com/alvarosiles
+
+Web:
+https://alvarosiles.cloud
+
+---
+
+# Footer
+
+Mostrar:
+
+❤️ Created with ❤️ by Álvaro Siles.
+
+---
+
+## Requisitos técnicos
+
+Genera el proyecto completo listo para GitHub Pages.
+
+Usar:
+
+- HTML5
+- CSS3
+- JavaScript vanilla
+
+No usar frameworks innecesarios.
+
+Crear:
+
+- index.html
+- style.css
+- script.js
+
+El código debe ser:
+- Limpio.
+- Bien organizado.
+- Fácil de mantener.
+- Con comentarios donde sea necesario.
+
+---
+
+## Información del repositorio
+
+Tipo:
+[INDICAR SI ES VS CODE O BROWSER EXTENSIONS]
+
+Nombre:
+[INSERTAR NOMBRE DEL REPOSITORIO]
+
+Proyectos incluidos:
+
+[PEGAR AQUÍ LA LISTA DE EXTENSIONES]
+
+Descripción:
+
+[PEGAR AQUÍ LA DESCRIPCIÓN]
+
+Genera la página completa.
