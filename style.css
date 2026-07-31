@@ -655,7 +655,7 @@ p { margin: 0; }
   .about-links { justify-content: center; }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .main-nav {
     position: absolute;
     top: 68px;

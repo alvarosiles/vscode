@@ -197,6 +197,34 @@
     });
   }
 
+  /* ---------- Scroll spy (highlight current section in the nav) ---------- */
+  const navLinks = document.querySelectorAll('.main-nav a[href^="#"]');
+  const spySections = Array.prototype.map
+    .call(navLinks, function (link) {
+      return document.getElementById(link.getAttribute("href").slice(1));
+    })
+    .filter(Boolean);
+
+  if ("IntersectionObserver" in window && spySections.length) {
+    const spyObserver = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            navLinks.forEach(function (link) {
+              link.classList.toggle("is-active", link.getAttribute("href") === "#" + id);
+            });
+          }
+        });
+      },
+      { rootMargin: "-45% 0px -50% 0px" }
+    );
+
+    spySections.forEach(function (section) {
+      spyObserver.observe(section);
+    });
+  }
+
   /* ---------- Scroll reveal ---------- */
   const revealEls = document.querySelectorAll(".reveal");
 
